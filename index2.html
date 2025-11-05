@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Gourmet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            color: #222;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .card {
+            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            background-color: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px 0;
+            font-size: 18px;
+        }
+
+        .card p {
+            margin: 0 15px 10px 15px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .price {
+            color: #e63946;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #f7f7f7;
+            border-top: 1px solid #ddd;
+        }
+
+        footer h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .contact-info i {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nuestro Menú</h1>
+
+    <section class="menu">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXF5D-n_QK6nuvox6ytBJacR8mf4ctR3WUA&s" alt="Hamburguesa Gourmet">
+            <h3>Hamburguesa Gourmet</h3>
+            <p>Deliciosa hamburguesa con carne premium, queso cheddar, lechuga y tomate.</p>
+            <p class="price">$12.99</p>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY7RbPLpeQGEKr-JMLB6L9kRdCTMtUbFJfJw&s" alt="Pizza Margherita">
+            <h3>Pizza Margherita</h3>
+            <p>Pizza artesanal con salsa de tomate, mozzarella fresca y albahaca.</p>
+            <p class="price">$15.99</p>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlr2UrylhZXHJVU2nitztNBM4XAqkjH9NczQ&s" alt="Ensalada César">
+            <h3>Ensalada César</h3>
+            <p>Lechuga romana, crutones, pollo a la parrilla y aderezo césar.</p>
+            <p class="price">$9.99</p>
+        </div>
+
+        <div class="card">
+            <img src="https://d36fw6y2wq3bat.cloudfront.net/recipes/espaguetis-con-pollo-y-champinones/900/espaguetis-con-pollo-y-champinones_version_1652871439.jpg" alt="Pasta Alfredo">
+            <h3>Pasta Alfredo</h3>
+            <p>Fetuccini en salsa cremosa con pollo y champiñones.</p>
+            <p class="price">$13.99</p>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Integrantes</h2>
+        <div class="contact-info">
+           <div style="font-weight: bold; margin-top: 10px;">
+    <ul>
+        <li>Génesis Nicole Martínez Hernández</li>
+        <li>Gricely Azucena Magaña Magaña</li>
+        <li>Génesis Madai Villatoro Miranda</li>
+    </ul>
+        </div>
+    </footer>
+</body>
+</html>
